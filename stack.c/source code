@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include<stdlib.h>
+#define MAX5
+
+int stack[MAX];
+int top=-1;
+void push(int value){
+    if(top==MAX-1)
+    {
+    printf("stack overflow");
+    return;
+    }
+    stack[++top]=value;    printf("%d",value);
+}
+void pop()
+{
+    printf("%dpopped from stack\n")
+}

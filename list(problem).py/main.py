@@ -1,0 +1,16 @@
+a=int(input())
+b=[]
+while(a>0):
+    c=int(input())
+    b.append(c)
+    a=a-1
+print(b)
+k=sorted(b)
+print(k)
+v=k[::-1]
+print(v)
+m=min(b)
+n=max(b)
+print(m*n)
+j=k[1]
+print(m+j)

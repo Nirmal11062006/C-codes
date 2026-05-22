@@ -1,0 +1,5 @@
+a=(23,50,60)
+b=list(a)
+b.append(400)
+c=tuple(b)
+print(c)
